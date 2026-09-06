@@ -1,6 +1,0 @@
-# .gitignore
-*.tfstate
-*.tfstate.*
-.terraform/
-*.tfvars
-!example.tfvars
