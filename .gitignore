@@ -4,3 +4,4 @@
 .terraform/
 *.tfvars
 !example.tfvars
+**/.terraform/
