@@ -5,3 +5,4 @@
 *.tfvars
 !example.tfvars
 **/.terraform/
+.terraform.lock.hcl

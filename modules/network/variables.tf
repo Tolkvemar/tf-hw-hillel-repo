@@ -12,17 +12,8 @@ variable "vpc_cidr" {
   type    = string
   default = "10.10.0.0/16"
 }
-variable "subnet_cidr" {
-  type    = string
-  default = "10.10.1.0/24"
-}
-variable "instance_type" {
-  type    = string
-  default = "t3.micro"
-}
-variable "env" {
-  type = string
-  default = "dev"
+variable "tags" {
+type =  map(string)
 }
 variable "subnets" {
   type = map(object({ netnum = number, az = string }))
